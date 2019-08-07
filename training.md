@@ -2,7 +2,7 @@
 
 ## Create your namespace
 ```
-create namespace <your login>
+kubectl create namespace <your login>
 
 kubectl config set-context --current --namespace=<your login>
 ```
