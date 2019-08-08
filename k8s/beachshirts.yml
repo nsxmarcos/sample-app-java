@@ -9,11 +9,9 @@ metadata:
     app: shopping
 
 spec:
-  type: LoadBalancer
   ports:
     - targetPort: 50050
       port: 50050
-      protocol: TCP
       name: http
       
   selector:
